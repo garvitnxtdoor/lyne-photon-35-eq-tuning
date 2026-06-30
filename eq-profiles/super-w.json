@@ -1,0 +1,16 @@
+{
+  "profile_name": "Super W",
+  "description": "Aggressive W-shaped correction tune for Lyne Photon 35 (budget V-shape dynamic driver). Compensates for recessed mids and uncontrolled 8kHz region with deliberately stronger correction than Harman target, on the basis that low-quality drivers need more aggressive correction than reference-grade drivers.",
+  "target_hardware": "Lyne Photon 35 (wired, USB-C)",
+  "source_device": "Samsung Galaxy A22",
+  "eq_range_db": [-15, 15],
+  "bands_hz": [31, 62, 125, 250, 500, 1000, 2000, 4000, 8000, 16000],
+  "gains_db": [7.0, 6.0, -5.0, -4.0, 3.0, 5.0, 5.0, 4.0, -6.0, 7.0],
+  "additional_settings": {
+    "bass_boost_percent": 0,
+    "loudness_percent": 0,
+    "virtualizer_percent": 0,
+    "recommended_max_volume_percent": 70
+  },
+  "notes": "Bass Boost/Loudness/Virtualizer kept off for the reference tune. Optional alt configs (34% bass boost, 14% virtualizer) tested separately as situational 'modes', not part of the core curve."
+}
